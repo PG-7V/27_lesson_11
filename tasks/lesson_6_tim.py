@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 num_task = int(input('Enter number task:'))
 ############################# -- 1 -- #############################
+##
 if num_task == 1:
     n = int(input('Enter int:'))
     res = True
@@ -14,6 +15,7 @@ if num_task == 1:
     print(res)
 
 ############################# -- 2 -- #############################
+##
 elif num_task == 2:
     n = int(input("Enter integer:"))
     d = int(input("Enter degree"))
