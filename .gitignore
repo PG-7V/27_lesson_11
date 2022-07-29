@@ -1,3 +1,4 @@
 .idea
 venv
-.settings.txt
+.settings
+.env
