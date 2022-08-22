@@ -15,6 +15,7 @@ class Mystery:
         if random.randint(0, 1):
             self.lst = self.answer.split(',')
             self.choices += self.lst[:random.randint(1, len(self.lst))]
+            
         random.shuffle(self.choices)
         self.data = {k: v for k, v in enumerate(self.choices)}
         for k, v in self.data.items():
